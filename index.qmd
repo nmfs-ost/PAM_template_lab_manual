@@ -1,5 +1,5 @@
 ---
-title: "PAM SI Lab Manual Template"
+title: "Home"
 subtitle: "Template for development of regional lab manuals as part of the Passive Acoustic Monitoring Strategic Initiative"
 page-layout: full
 ---
