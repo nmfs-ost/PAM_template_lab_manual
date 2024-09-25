@@ -15,17 +15,17 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+    logo: "https://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg"
     favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://nmfs-opensci.github.io
-        text: "NMFS Open Science"
+        href: https://nmfs-ost.github.io/PAM_National_NMFS_Network
+        text: "NMFS National Passive Acoustic Monitoring Network"
       - icon: github
-        href: https://github.com/nmfs-opensci
-        text: "NMFS OpenSci"
+        href: https://github.com/nmfs-ost/PAM_template_lab_manual
+        text: "NMFS PAM SI Lab Manual Template"
 
     style: "docked"
     search: true
@@ -33,19 +33,36 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/add-content.qmd
-        text: Add content
-      - href: content/customizing.qmd
-        text: Customizing
-      - href: content/rendering.qmd
-        text: Rendering
-      - href: content/rmarkdown.Rmd
-        text: R Markdown files
-      - href: content/code.qmd
-        text: Code in your files
-      - href: content/acknowledgements.qmd
-        text: Acknowledgements
-
+      - href: content/SharedValues.qmd
+        text: Shared Values
+      - href: content/Onboarding.qmd
+        text: Onboarding
+      - href: content/Offboarding.qmd
+        text: Offboarding
+      - href: content/LabManagement.qmd
+        text: Lab Management
+      - href: content/DataManagement.qmd
+        text: Data Management
+      - href: content/Software.qmd
+        text: Software
+      - href: content/Hardware.qmd
+        text: Hardware
+      - href: content/FieldMethods.qmd
+        text: Field Methods
+      - href: content/AnalysisMethods.qmd
+        text: Analysis Methods
+      - href: content/Resources.qmd
+        text: Resources
+      - section: "NMFS Open Science Directions"
+        contents:
+          - content/NMFS_OpenSciDirections/Intro.qmd
+          - content/NMFS_OpenSciDirections/add-content.qmd
+          - content/NMFS_OpenSciDirections/customizing.qmd
+          - content/NMFS_OpenSciDirections/rendering.qmd
+          - content/NMFS_OpenSciDirections/rmarkdown.Rmd
+          - content/NMFS_OpenSciDirections/code.qmd
+          - content/NMFS_OpenSciDirections/acknowledgements.qmd 
+        
 format:
   html:
     theme:
