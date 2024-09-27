@@ -51,6 +51,12 @@ website:
         text: Field Methods
       - href: content/AnalysisMethods.qmd
         text: Analysis Methods
+      - href: content/Reporting.qmd
+        text: Reporting
+      - href: content/OpenScience.qmd
+        text: Open Science
+      - href: content/PublicationsPresentations.qmd
+        text: Publications and Presentations
       - href: content/Resources.qmd
         text: Resources
       - section: "NMFS Open Science Directions"
