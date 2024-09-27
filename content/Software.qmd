@@ -1,3 +1,10 @@
 ---
 title: Software
 ---
+
+A software section is required and should include the following information;
+
+-   List of software you use and their applications (R, Matlab/Triton, Python, PAMGuard, Raven, etc.)
+-   Also include software packages or tools your team has built (PAMPal, PAMmisc, Banter, PAMscapes, Driftwatch, etc.)
+
+This can be a section with subpages or a qmd

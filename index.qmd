@@ -22,7 +22,7 @@ In order to keep consistency between science centers, the following sections/pag
 -   [Hardware](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Hardware.html)
 -   [Software](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Software.html)
 -   [Analysis](https://nmfs-ost.github.io/PAM_template_lab_manual/content/AnalysisMethods.html)
--   Reporting
+-   [Reporting](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Reporting.html)
 
 ### Optional Pages
 
@@ -32,8 +32,8 @@ Here are some more ideas for pages to include in your lab manual. These are opti
 -   [Onboarding](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Onboarding.html)
 -   [Offboarding](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Offboarding.html)
 -   [Field Methods](https://nmfs-ost.github.io/PAM_template_lab_manual/content/FieldMethods.html)
--   Open Science
--   Publications/Presentations
+-   [Open Science](https://nmfs-ost.github.io/PAM_template_lab_manual/content/OpenScience.html)
+-   [Publications/Presentations](https://nmfs-ost.github.io/PAM_template_lab_manual/content/PublicationsPresentations.html)
 -   [Resources](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Resources.html)
 
 ### Examples
@@ -41,5 +41,6 @@ Here are some more ideas for pages to include in your lab manual. These are opti
 Here are two lab manuals to pull inspiration from
 
 -   [SWFSC Southwest Acoustic Ecology Lab Manual](https://sael-swfsc.github.io/SAEL-lab-manual/content/media.html)
-
 -   [Faylab Manual](https://thefaylab.github.io/lab-manual/)
+
+## How To Use This Template

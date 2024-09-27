@@ -1,3 +1,25 @@
 ---
 title: Analysis Methods
 ---
+
+An analysis methods section is required and should include the following information;
+
+-   Data Prep and Archive
+
+    -   Data prep (decompressing, creating LTSAs, decimating, etc.)
+
+    -   Data quality checks (QAQC scripts)
+
+    -   Data upload steps
+
+        -   If you have a internal storage include directions here on where data should be stored and in what format
+
+        -   You can also include a data managment structure with standardized naming and storage/folder structures
+
+-   Analysis methods for each species, group, or sound source
+
+    -   You can break this down by baleen and toothed whales, soundscapes, etc.
+
+    -    Each section should include detailed and reproducible methods that anybody can recreate
+
+This can be a section with subpages or a qmd
