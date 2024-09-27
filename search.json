@@ -137,6 +137,26 @@
     ]
   },
   {
+    "objectID": "index.html#template-intro",
+    "href": "index.html#template-intro",
+    "title": "Home",
+    "section": "",
+    "text": "This is a template for a simple Quarto website that looks like a “book”. This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nThe GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#pam-si-lab-manual-template",
+    "href": "index.html#pam-si-lab-manual-template",
+    "title": "Home",
+    "section": "PAM SI Lab Manual Template",
+    "text": "PAM SI Lab Manual Template\n\nRequired Pages\nIn order to keep consistency between science centers, the following sections/pages will be required in all lab manuals. These will be directly linked to the National PAM Repository. The links will direct you to the associated template page with more directions on what to include.\n\nHome Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.\nLab Management\nData Management\nHardware\nSoftware\nAnalysis\nReporting\n\n\n\nOptional Pages\nHere are some more ideas for pages to include in your lab manual. These are optional and will not be linked to the main National PAM Repo, but they may be helpful for your team\n\nShared values/lab culture\nOnboarding\nOffboarding\nField Methods\nOpen Science\nPublications/Presentations\nResources\n\n\n\nExamples\nHere are two lab manuals to pull inspiration from\n\nSWFSC Southwest Acoustic Ecology Lab Manual\nFaylab Manual",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
     "objectID": "content/NMFS_OpenSciDirections/rendering.html",
     "href": "content/NMFS_OpenSciDirections/rendering.html",
     "title": "Rendering",
