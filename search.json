@@ -4,9 +4,53 @@
     "href": "content/LabManagement.html",
     "title": "Lab Management",
     "section": "",
-    "text": "A lab management section is required and should include the following information;\n\nSafety\n\nBoth lab safety and field safety\nLink to your centers safety website\nChemical inventory (if applicable)\nLithium battery safety\n\nThis is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See SAEL lab manual lithium battery page for inspo\n\n\nInventory\n\nHighly recommended to keep track of equipment, loans, and gear in the field\nThis can be a link to a Google sheet or embedded in the website\n\n\nThis can be a section with subpages or a qmd",
+    "text": "A lab management section is required and should include the following information;\n\nSafety\n\nBoth lab safety and field safety\nLink to your centers safety website\nChemical inventory (if applicable)\nLithium battery safety\n\nThis is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See SAEL lab manual lithium battery page\n\nSAEL Lab Example\n\nInventory\n\nHighly recommended to keep track of equipment, loans, and gear in the field\nThis can be a link to a Google sheet or embedded in the website\nSAEL Lab Example\n\n\nThis can be a section with subpages or a qmd",
     "crumbs": [
       "Lab Management"
+    ]
+  },
+  {
+    "objectID": "content/OpenScience.html",
+    "href": "content/OpenScience.html",
+    "title": "Open Science",
+    "section": "",
+    "text": "This section is optional but is a great place for all of your open science related resources and tools. You can include information here for our Openscapes work, stack exchange, GitHub, co working guides, etc.\nSAEL Example",
+    "crumbs": [
+      "Optional Pages",
+      "Open Science"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html",
+    "href": "content/FieldMethods.html",
+    "title": "Field Methods",
+    "section": "",
+    "text": "A field methods section is highly recommended to help your team keep track of all current and past fieldwork documentation. This can be a link to a separate repository that includes more detailed methods. Things to include here can include hardware specifications, checklists for fieldwork prep, deployment and recovery methods, etc.\nADRIFT example",
+    "crumbs": [
+      "Optional Pages",
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/Offboarding.html",
+    "href": "content/Offboarding.html",
+    "title": "Offboarding",
+    "section": "",
+    "text": "This page is optional but can be extremely beneficial when a member of your team is transitioning out of their current position. Things to include here are directions for project documentation, data and code storage/sharing, turning in equipment, etc.\nFaylab example",
+    "crumbs": [
+      "Optional Pages",
+      "Offboarding"
+    ]
+  },
+  {
+    "objectID": "content/PublicationsPresentations.html",
+    "href": "content/PublicationsPresentations.html",
+    "title": "Publications and Presentations",
+    "section": "",
+    "text": "This may fit in the reporting section",
+    "crumbs": [
+      "Optional Pages",
+      "Publications and Presentations"
     ]
   },
   {
@@ -14,8 +58,9 @@
     "href": "content/Software.html",
     "title": "Software",
     "section": "",
-    "text": "A software section is required and should include the following information;\n\nList of software you use and their applications (R, Matlab/Triton, Python, PAMGuard, Raven, etc.)\nAlso include software packages or tools your team has built (PAMPal, PAMmisc, Banter, PAMscapes, Driftwatch, etc.)\n\nThis can be a section with subpages or a qmd",
+    "text": "A software section is required and should include the following information;\n\nList of software you use and their applications (R, Matlab/Triton, Python, PAMGuard, Raven, etc.)\nAlso include software packages or tools your team has built (PAMPal, PAMmisc, Banter, PAMscapes, Driftwatch, etc.)\n\nSAEL example\n\n\nThis can be a section with subpages or a qmd",
     "crumbs": [
+      "Software & Analysis",
       "Software"
     ]
   },
@@ -151,17 +196,7 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "This is a template for a simple Quarto website that looks like a “book”. This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nThe GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#template-intro",
-    "href": "index.html#template-intro",
-    "title": "Home",
-    "section": "",
-    "text": "This is a template for a simple Quarto website that looks like a “book”. This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nThe GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references.",
+    "text": "Insert goals here\n\n\nIn order to keep consistency between science centers, the following sections/pages will be required in all lab manuals. These will be directly linked to the National PAM Repository. The links will direct you to the associated template page with more directions on what to include.\n\nHome Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.\nLab Management\nData Management\nHardware\nSoftware\nAnalysis\nReporting\n\n\n\n\nHere are some more ideas for pages to include in your lab manual. These are optional and will not be linked to the main National PAM Repo, but they may be helpful for your team\n\nShared values/lab culture\nOnboarding\nOffboarding\nField Methods\nOpen Science\nPublications/Presentations\nResources\n\n\n\n\nHere are two lab manuals to pull inspiration from\n\nSWFSC Southwest Acoustic Ecology Lab Manual\nFaylab Manual",
     "crumbs": [
       "Home"
     ]
@@ -170,8 +205,8 @@
     "objectID": "index.html#pam-si-lab-manual-template",
     "href": "index.html#pam-si-lab-manual-template",
     "title": "Home",
-    "section": "PAM SI Lab Manual Template",
-    "text": "PAM SI Lab Manual Template\n\nRequired Pages\nIn order to keep consistency between science centers, the following sections/pages will be required in all lab manuals. These will be directly linked to the National PAM Repository. The links will direct you to the associated template page with more directions on what to include.\n\nHome Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.\nLab Management\nData Management\nHardware\nSoftware\nAnalysis\nReporting\n\n\n\nOptional Pages\nHere are some more ideas for pages to include in your lab manual. These are optional and will not be linked to the main National PAM Repo, but they may be helpful for your team\n\nShared values/lab culture\nOnboarding\nOffboarding\nField Methods\nOpen Science\nPublications/Presentations\nResources\n\n\n\nExamples\nHere are two lab manuals to pull inspiration from\n\nSWFSC Southwest Acoustic Ecology Lab Manual\nFaylab Manual",
+    "section": "",
+    "text": "Insert goals here\n\n\nIn order to keep consistency between science centers, the following sections/pages will be required in all lab manuals. These will be directly linked to the National PAM Repository. The links will direct you to the associated template page with more directions on what to include.\n\nHome Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.\nLab Management\nData Management\nHardware\nSoftware\nAnalysis\nReporting\n\n\n\n\nHere are some more ideas for pages to include in your lab manual. These are optional and will not be linked to the main National PAM Repo, but they may be helpful for your team\n\nShared values/lab culture\nOnboarding\nOffboarding\nField Methods\nOpen Science\nPublications/Presentations\nResources\n\n\n\n\nHere are two lab manuals to pull inspiration from\n\nSWFSC Southwest Acoustic Ecology Lab Manual\nFaylab Manual",
     "crumbs": [
       "Home"
     ]
@@ -182,6 +217,16 @@
     "title": "Home",
     "section": "How To Use This Template",
     "text": "How To Use This Template",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#template-intro",
+    "href": "index.html#template-intro",
+    "title": "Home",
+    "section": "Template Intro",
+    "text": "Template Intro\nThis is a template for a simple Quarto website that looks like a “book”. This is a common format for documentation. It includes a GitHub Action that will build the website automatically when you make changes to the files. The NOAA palette and fonts has been added to theme.scss. The webpage will be on the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nThe GitHub Action installs R so you can have R code in your qmd or Rmd files. Note, you do not need to make changes to your Rmd files unless your need Quarto features like cross-references.",
     "crumbs": [
       "Home"
     ]
@@ -319,13 +364,46 @@
     ]
   },
   {
+    "objectID": "content/Resources.html",
+    "href": "content/Resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "This page is optional but can be a good spot for any remaining resources or tools you want easy access to.",
+    "crumbs": [
+      "Optional Pages",
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "content/SharedValues.html",
+    "href": "content/SharedValues.html",
+    "title": "Shared Values",
+    "section": "",
+    "text": "A shared values / lab culture page is optional but is highly recommended. Establishing these values as a team can help create a positive and inclusive environment, foster a shared vision, promote collaboration, and build team cohesion while supporting individual growth.\nSAEL example\nFaylab example",
+    "crumbs": [
+      "Optional Pages",
+      "Shared Values"
+    ]
+  },
+  {
     "objectID": "content/Hardware.html",
     "href": "content/Hardware.html",
     "title": "Hardware",
     "section": "",
-    "text": "A hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nThis can be a section with subpages or a qmd",
+    "text": "A hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
     "crumbs": [
       "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Onboarding.html",
+    "href": "content/Onboarding.html",
+    "title": "Onboarding",
+    "section": "",
+    "text": "This page is optional but can be used as a landing page for new lab members. You can include introductory information, links to must read papers, new hire resources, goal setting information, etc.\nFaylab example",
+    "crumbs": [
+      "Optional Pages",
+      "Onboarding"
     ]
   },
   {
@@ -333,7 +411,7 @@
     "href": "content/DataManagement.html",
     "title": "Data Management",
     "section": "",
-    "text": "A data management section is required and should include the following information;\n\nData Archive Methods\n\nInformation on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)\n\nPermits and Permit Reporting Guidelines\n\nInclude permit numbers and links to your centers/groups permits\nInclude directions for permit reporting (Protected species, National Marine Sanctuaries, Navy, Fish and Wildlife, etc)\nYou can include links to past permit reports (these can be private google drive folders if needed)\n\nSpecies and Call Types in your region\n\nDevelop a species and call type library for your region\nThis can include spectrograms of calls and sound clips\n\nMedia\n\nlinks to sound archives, media archives, web sites, blogs, etc.\n\n\nThis can be a section with subpages or a qmd",
+    "text": "A data management section is required and should include the following information;\n\nData Archive Methods\n\nInformation on where your data is archived (PACM, NCEI, Tethys, Internal databases, etc)\nSAEL Example\n\nPermits and Permit Reporting Guidelines\n\nInclude permit numbers and links to your centers/groups permits\nInclude directions for permit reporting (Protected species, National Marine Sanctuaries, Navy, Fish and Wildlife, etc)\nYou can include links to past permit reports (these can be private google drive folders if needed)\nSAEL example\n\nSpecies and Call Types in your region\n\nDevelop a species and call type library for your region\nThis can include spectrograms of calls and sound clips\nSAEL Example\n\nMedia\n\nLinks to sound archives, media archives, web sites, blogs, etc.\nSAEL Example\n\n\nThis can be a section with subpages or a qmd",
     "crumbs": [
       "Data Management"
     ]
@@ -343,8 +421,9 @@
     "href": "content/AnalysisMethods.html",
     "title": "Analysis Methods",
     "section": "",
-    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\nData quality checks (QAQC scripts)\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nThis can be a section with subpages or a qmd",
+    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
     "crumbs": [
+      "Software & Analysis",
       "Analysis Methods"
     ]
   }
