@@ -33,32 +33,28 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/SharedValues.qmd
-        text: Shared Values
-      - href: content/Onboarding.qmd
-        text: Onboarding
-      - href: content/Offboarding.qmd
-        text: Offboarding
       - href: content/LabManagement.qmd
         text: Lab Management
       - href: content/DataManagement.qmd
         text: Data Management
-      - href: content/Software.qmd
-        text: Software
       - href: content/Hardware.qmd
         text: Hardware
-      - href: content/FieldMethods.qmd
-        text: Field Methods
-      - href: content/AnalysisMethods.qmd
-        text: Analysis Methods
+      - section: "Software & Analysis"
+        contents: 
+          - content/Software.qmd
+          - content/AnalysisMethods.qmd
+        
       - href: content/Reporting.qmd
         text: Reporting
-      - href: content/OpenScience.qmd
-        text: Open Science
-      - href: content/PublicationsPresentations.qmd
-        text: Publications and Presentations
-      - href: content/Resources.qmd
-        text: Resources
+      - section: "Optional Pages"
+        contents: 
+          - content/SharedValues.qmd
+          - content/Onboarding.qmd
+          - content/Offboarding.qmd
+          - content/FieldMethods.qmd
+          - content/OpenScience.qmd
+          - content/PublicationsPresentations.qmd
+          - content/Resources.qmd
       - section: "NMFS Open Science Directions"
         contents:
           - content/NMFS_OpenSciDirections/Intro.qmd
