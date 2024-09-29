@@ -6,15 +6,10 @@ A lab management section is required and should include the following informatio
 
 -   Safety
     -   Both lab safety and field safety
-
     -   Link to your centers safety website
-
     -   Chemical inventory (if applicable)
-
     -   Lithium battery safety
-
         -   This is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See [SAEL lab manual lithium battery page](https://sael-swfsc.github.io/SAEL-lab-manual/content/Safety_Lithium-Batteries.html)
-
     -   [SAEL Lab Example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Safety-Lab.html)
 -   Inventory
     -   Highly recommended to keep track of equipment, loans, and gear in the field
