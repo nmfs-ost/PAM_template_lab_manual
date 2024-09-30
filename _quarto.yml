@@ -33,17 +33,25 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/LabManagement.qmd
-        text: Lab Management
+      - section: content/LabManagement.qmd
+        contents: 
+          - href: content/Safety.qmd
+            text: Safety
+          - href: content/Inventory.qmd
+            text: Inventory
+          - href: content/Hardware.qmd
+            text: Hardware
+      - href: content/FieldMethods.qmd
+        text: "Field Methods"
       - href: content/DataManagement.qmd
         text: Data Management
       - href: content/Hardware.qmd
         text: Hardware
-      - section: "Software & Analysis"
+      - section: content/SoftwareAnalysis.qmd
+#        text: "Software & Analysis"
         contents: 
           - content/Software.qmd
           - content/AnalysisMethods.qmd
-        
       - href: content/Reporting.qmd
         text: Reporting
       - section: "Optional Pages"
