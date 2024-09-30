@@ -47,7 +47,7 @@
     "href": "content/PublicationsPresentations.html",
     "title": "Publications and Presentations",
     "section": "",
-    "text": "This may fit in the reporting section",
+    "text": "This is an optional page but is a great opportunity to highlight some of your publications and presentations.\nSAEL example (add once this page is corrected)",
     "crumbs": [
       "Optional Pages",
       "Publications and Presentations"
@@ -192,11 +192,21 @@
     "text": "Don’t like using gh-pages?\nIn some cases, you don’t want your website on the gh-pages branch. For example, if you are creating releases and you want the website pages archived in that release, then you won’t want your website pages on the gh-pages branch.\nHere are the changes you need to make if you to avoid gh-pages branch.\n\nAt the top of _quarto.yml add the following:\n\nproject: \n  type: website\n  output-dir: docs\n\nOn GitHub under Settings &gt; Pages set pages to be made from the main branch and the docs directory.\nMake sure docs is not listed in .gitignore\nPublish the site the first time locally using quarto publish from the terminal\nChange the GitHub Action because you can’t use quarto publish gh-pages. You’ll need to push to the main branch yourself (in the GitHub Action)\n\non:\n  push:\n    branches: main\n\nname: Render and Publish\n\njobs:\n  build-deploy:\n    runs-on: ubuntu-latest\n    env:\n      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}\n\n    steps:\n      - name: Check out repository\n        uses: actions/checkout@v2 \n        \n      - name: Set up R (needed for Rmd)\n        uses: r-lib/actions/setup-r@v2\n\n      - name: Install packages (needed for Rmd)\n        run: Rscript -e 'install.packages(c(\"rmarkdown\", \"knitr\", \"jsonlite\"))'\n\n      - name: Set up Quarto\n        uses: quarto-dev/quarto-actions/setup@v2\n        with:\n          # To install LaTeX to build PDF book \n          # tinytex: true \n          # uncomment below and fill to pin a version\n          # version: 0.9.600\n      \n      - name: Render Quarto Project\n        uses: quarto-dev/quarto-actions/render@v2\n        with:\n          to: html\n\n      - name: Set up Git\n        run: |\n          git config --local user.email \"actions@github.com\"\n          git config --local user.name \"GitHub Actions\"\n\n      - name: Commit all changes and push\n        run: |\n          git add -A && git commit -m 'Build site' || echo \"No changes to commit\"\n          git push origin || echo \"No changes to commit\""
   },
   {
+    "objectID": "content/Reporting.html",
+    "href": "content/Reporting.html",
+    "title": "Reporting",
+    "section": "",
+    "text": "This is a required page and should include any templates you have created for reporting within NOAA or to other agencies.\nExamples include NEFSC PAM data reporting templates and standard report formats for a few different agencies/species (right whales, Australian Marine Parks).",
+    "crumbs": [
+      "Reporting"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "A key priority of the PAM SI team is to leverage GitHub as a collaboration and coordination tool, while utilizing its project management tools. To achieve this, we propose the development of national and regional lab manuals. These manuals will serve as the primary storage location for all lab related information, including methods, data management, and contribute to the open science framework we aim to adopt.",
+    "text": "A key priority of the PAM SI is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we will develop national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
     "crumbs": [
       "Home"
     ]
@@ -206,7 +216,7 @@
     "href": "index.html#pam-si-lab-manual-template",
     "title": "Home",
     "section": "",
-    "text": "A key priority of the PAM SI team is to leverage GitHub as a collaboration and coordination tool, while utilizing its project management tools. To achieve this, we propose the development of national and regional lab manuals. These manuals will serve as the primary storage location for all lab related information, including methods, data management, and contribute to the open science framework we aim to adopt.",
+    "text": "A key priority of the PAM SI is to build an open science culture across the agency by leveraging GitHub as a collaboration, coordination, and project management tool. To achieve this we will develop national and regional lab manuals that follow a parallel structure and link to each other. These manuals will serve as the primary storage location for all lab related information, including methods and data management, and will be a single access resource to support coordination across science center PAM programs.",
     "crumbs": [
       "Home"
     ]
