@@ -60,11 +60,23 @@ This template will create a Quarto website that each lab can copy and edit with 
 
     ![](content/images/branches.png)
 
-6.  Under Settings -\> Actions -\> General -\> Actions permissions select 'Allow all actions and reusable workflows'. Select save
+6.  Update 'Actions' settings
 
-    ![](content/images/actions.png){width="323"}
+    -   Under Settings -\> Actions -\> General -\> Actions permissions select 'Allow all actions and reusable workflows'. Select save
 
-7.  Edit your website
+        ![](content/images/actions.png){width="323"}
+
+    -   Under Settings -\> Actions -\> General -\> Workflow permissions select 'Read and write permissions'
+
+        ![](content/images/workflowPermissions.png)
+
+        ::: callout-important
+        ## Note: Both of these settings may already be selected but you have to click save for both
+        :::
+
+7.  Return to the main page of the repo to edit your website
+
+    -   Click on 'Code' in the top left
 
     -   Click on the settings button next to the 'About' section on the right side of the repository
 
