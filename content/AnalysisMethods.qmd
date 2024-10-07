@@ -21,3 +21,5 @@ An analysis methods section is required and should include the following informa
     -   Each section should include detailed and reproducible methods that anybody can recreate
 
 You can also link to a separate hardware repository if needed ([SAEL example](https://sael-swfsc.github.io/SAEL-lab-manual/content/Analysis-adrift.html))
+
+[Glider Lab Manual example](https://swfsc.github.io/glider-lab-manual/content/dataproc-gliders.html)

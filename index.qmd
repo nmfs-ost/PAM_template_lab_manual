@@ -94,3 +94,4 @@ Here are two lab manuals to pull inspiration from
 
 -   [SWFSC Southwest Acoustic Ecology Lab Manual](https://sael-swfsc.github.io/SAEL-lab-manual/content/media.html)
 -   [Faylab Manual](https://thefaylab.github.io/lab-manual/)
+-   [SWFSC Glider Lab Manual](https://swfsc.github.io/glider-lab-manual/)
