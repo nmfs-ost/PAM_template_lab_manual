@@ -86,8 +86,6 @@ This template will create a Quarto website that each lab can copy and edit with 
 
         ![](content/images/website.png)
 
-8.  Your lab manual is now ready to go! See ['Customize' page](https://nmfs-ost.github.io/PAM_template_lab_manual/content/NMFS_OpenSciDirections/add-content.html) for more directions on editing and updating your lab manual
-
 ## Example Manuals
 
 Here are two lab manuals to pull inspiration from
