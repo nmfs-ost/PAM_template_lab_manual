@@ -124,113 +124,108 @@
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/rendering.html",
-    "href": "content/NMFS_OpenSciDirections/rendering.html",
-    "title": "Rendering",
+    "objectID": "content/NMFS_OpenSciDirections/Getting-Started.html",
+    "href": "content/NMFS_OpenSciDirections/Getting-Started.html",
+    "title": "Getting Started",
     "section": "",
-    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally.",
+    "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\n\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.\nAdd Software Tools\n\nGithub Desktop\nRStudio (v2022.07.2 build 576 or later)\nR\nCreate a Github Login\n\nCreate a Repository using one of the following examples:\n\nCreate a Repository from a Template\n\nPAM Lab Manual Template- scroll down & follow directions ‘How to use this template’\nConsider one of Eli Holme’s templates\n\nCreate a New (or test) Repository in Github (see help here)\n\nClone your Test Repository to your local computer using Github Desktop:\n\nFile -&gt; Clone Repository -&gt; URL\nCopy URL of your Test Repository on Github and save to your Documents -&gt; Github folder using the defaults. See Introduction to Git/Github tutorial for more help.\n\nOpen project in RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project. Browse to find the appropriate folder in Documents-&gt; Github. In the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.\nModify the README.md file. Open this file and add text and possibly a link to this document. Save the file. If you are using the latest version of RStudio (with quarto), you can modify your file using the Source Code or the Visual Editor. This is an RMarkdown file, so you can use R markdown language, or, if you prefer, you can use the visual editor which is more user-friendly. If you copy/paste an existing document into the visual editor, much of the existing formatting will be retained.\nCommit & Push to Github. Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary). At the bottom left, describe the modifications you made to the document, and then select ‘commit’. Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\nOpen your Github repository and check out the changes on your README at the bottom of the page!\nAdopt this process as your daily habit of working on your projects locally and saving your data to Github.\n\nFor more information, see:\nIntroduction to Git/Github Tutorial (Eli Holmes, NMFS)\nGit for Humans (Alice Bartlett)\nHappy Git with R (Jenny Bryan)",
     "crumbs": [
       "NMFS Open Science Directions",
-      "Rendering"
+      "Getting Started"
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "href": "content/NMFS_OpenSciDirections/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
-    "title": "Rendering",
-    "section": "Step 1. Make sure you have a recent RStudio",
-    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "href": "content/NMFS_OpenSciDirections/rendering.html#step-2.-clone-and-create-rstudio-project",
-    "title": "Rendering",
-    "section": "Step 2. Clone and create RStudio project",
-    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-3.-render-within-rstudio",
-    "href": "content/NMFS_OpenSciDirections/rendering.html#step-3.-render-within-rstudio",
-    "title": "Rendering",
-    "section": "Step 3. Render within RStudio",
-    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Rendering"
-    ]
-  },
-  {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html",
-    "href": "content/NMFS_OpenSciDirections/customizing.html",
-    "title": "Customization",
+    "objectID": "content/NMFS_OpenSciDirections/Getting-Started.html#getting-started-in-open-science",
+    "href": "content/NMFS_OpenSciDirections/Getting-Started.html#getting-started-in-open-science",
+    "title": "Getting Started",
     "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
+    "text": "Open Science is a movement to make scientific research (including publications, data, software) transparent and accessible so that knowledge is shared. Here we will provide steps to get started; in future sections we will provide additional details on specific tasks/projects\n\nEmbrace the Open Science Mindset! Learn more about this approach and why it matters at Openscapes.org and the Openscapes Approach Guide.\nAdd Software Tools\n\nGithub Desktop\nRStudio (v2022.07.2 build 576 or later)\nR\nCreate a Github Login\n\nCreate a Repository using one of the following examples:\n\nCreate a Repository from a Template\n\nPAM Lab Manual Template- scroll down & follow directions ‘How to use this template’\nConsider one of Eli Holme’s templates\n\nCreate a New (or test) Repository in Github (see help here)\n\nClone your Test Repository to your local computer using Github Desktop:\n\nFile -&gt; Clone Repository -&gt; URL\nCopy URL of your Test Repository on Github and save to your Documents -&gt; Github folder using the defaults. See Introduction to Git/Github tutorial for more help.\n\nOpen project in RStudio. In the upper right hand corner of RStudio, select ‘New Project’ in the drop-down menu to add a new R Project from an Existing Project. Browse to find the appropriate folder in Documents-&gt; Github. In the lower right section of RStudio, select ‘Files’ and you will see the README.md file, which appears on the home page on your Github repository site.\nModify the README.md file. Open this file and add text and possibly a link to this document. Save the file. If you are using the latest version of RStudio (with quarto), you can modify your file using the Source Code or the Visual Editor. This is an RMarkdown file, so you can use R markdown language, or, if you prefer, you can use the visual editor which is more user-friendly. If you copy/paste an existing document into the visual editor, much of the existing formatting will be retained.\nCommit & Push to Github. Open your project in Github Desktop; Github desktop will identify the changes you made (refresh if necessary). At the bottom left, describe the modifications you made to the document, and then select ‘commit’. Once the commit goes through– select ‘Push to Origin’ at the top. This will push changes to your Github repository.\nOpen your Github repository and check out the changes on your README at the bottom of the page!\nAdopt this process as your daily habit of working on your projects locally and saving your data to Github.\n\nFor more information, see:\nIntroduction to Git/Github Tutorial (Eli Holmes, NMFS)\nGit for Humans (Alice Bartlett)\nHappy Git with R (Jenny Bryan)",
     "crumbs": [
       "NMFS Open Science Directions",
-      "Customization"
+      "Getting Started"
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
-    "href": "content/NMFS_OpenSciDirections/customizing.html#quarto-documentation",
-    "title": "Customization",
+    "objectID": "content/NMFS_OpenSciDirections/Intro.html",
+    "href": "content/NMFS_OpenSciDirections/Intro.html",
+    "title": "NOAA quarto simple with R",
     "section": "",
-    "text": "Quarto allow many bells and whistles to make nice output. Read the documentation here Quarto documentation.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customization"
-    ]
+    "text": "This is a template for a simple Quarto website (type: website). It looks like a html book (type: book) but unlike the book type it only has html format and you will not have the download options. type: website is a common format for documentation.\nThe repo includes a GitHub Action that will build the website automatically when you make changes to the files. The webpage will use the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nWarning: Check that the settings will allow the GitHub Action to run. See the instructions below under “GitHub Set-up”. Scroll down to the troubleshooting section if the website is not built by the GitHub Action.\nNote: The GitHub Action installs R so you can render qmd files with R code. You will need to edit to install Python or Julia if your qmd uses those instead. If you have substantial computations, you don’t want to be re-running all the computations for files that didn’t change. Read about the freeze option for this situation. R users with complex reports with dependencies (so qmd B depends on qmd A or data file A) should be aware of the {targets} package which will help you keep track of files that need to be re-rendered due to changes in dependencies.\n\n\n\nClick the green “Use This Template” button to make a repository with this content. Make sure to make your repo public (since GitHub Pages doesn’t work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch). \nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and root directory. \nAllow GitHub Actions under Settings &gt; Actions &gt; General \nAllow GitHub Actions to write to the gh-pages branch. Scroll to the bottom under Settings &gt; Actions &gt; General, and make sure “Read and Write” is selected. \nEdit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the Settings &gt; Pages page to find the url to the Quarto website\n\n\n\n\n\nEdit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nAdd the files to _quarto.yml\n\n\n\n\nThe most common trouble users run into is that the book is not rendering. Check the following:\n\nThe gh-pages branch does not exist. If you forgot to check the check box to include all the branches when you created the repo from the template then it won’t exist. The Action will fail if the gh-pages branch does not already exist. You can create the branch and then push a change to main to trigger the Action to run again.\nThe GitHub Pages has not been set. You need to go to Pages under settings, and set Pages to build from the gh-pages branch.\nYou did not allow GitHub Actions to run and/or did not give read/write permission. Go to Settings &gt; Actions &gt; General, and make sure Actions are allowed (top section) and they have read/write permission (bottom section).\nYou did not push a change to the main branch. The Action is triggered by a push to main, so try making an edit to README.md and pushing that change."
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/customizing.html#examples",
-    "href": "content/NMFS_OpenSciDirections/customizing.html#examples",
-    "title": "Customization",
-    "section": "Examples",
-    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
-    "crumbs": [
-      "NMFS Open Science Directions",
-      "Customization"
-    ]
+    "objectID": "content/NMFS_OpenSciDirections/Intro.html#github-set-up",
+    "href": "content/NMFS_OpenSciDirections/Intro.html#github-set-up",
+    "title": "NOAA quarto simple with R",
+    "section": "",
+    "text": "Click the green “Use This Template” button to make a repository with this content. Make sure to make your repo public (since GitHub Pages doesn’t work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch). \nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and root directory. \nAllow GitHub Actions under Settings &gt; Actions &gt; General \nAllow GitHub Actions to write to the gh-pages branch. Scroll to the bottom under Settings &gt; Actions &gt; General, and make sure “Read and Write” is selected. \nEdit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the Settings &gt; Pages page to find the url to the Quarto website"
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/Intro.html#customize",
+    "href": "content/NMFS_OpenSciDirections/Intro.html#customize",
+    "title": "NOAA quarto simple with R",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nAdd the files to _quarto.yml"
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/Intro.html#troubleshooting-builds",
+    "href": "content/NMFS_OpenSciDirections/Intro.html#troubleshooting-builds",
+    "title": "NOAA quarto simple with R",
+    "section": "",
+    "text": "The most common trouble users run into is that the book is not rendering. Check the following:\n\nThe gh-pages branch does not exist. If you forgot to check the check box to include all the branches when you created the repo from the template then it won’t exist. The Action will fail if the gh-pages branch does not already exist. You can create the branch and then push a change to main to trigger the Action to run again.\nThe GitHub Pages has not been set. You need to go to Pages under settings, and set Pages to build from the gh-pages branch.\nYou did not allow GitHub Actions to run and/or did not give read/write permission. Go to Settings &gt; Actions &gt; General, and make sure Actions are allowed (top section) and they have read/write permission (bottom section).\nYou did not push a change to the main branch. The Action is triggered by a push to main, so try making an edit to README.md and pushing that change."
   },
   {
     "objectID": "content/NMFS_OpenSciDirections/add-content.html",
     "href": "content/NMFS_OpenSciDirections/add-content.html",
-    "title": "Customize",
+    "title": "Customize Content",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "text": "You can customize your content by (1) Modifying existing content, or (2) creating your own content. For examples, we will assume a folder structure such as that in the PAM Template Lab Manual.",
     "crumbs": [
       "NMFS Open Science Directions",
-      "Customize"
+      "Customize Content"
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
-    "href": "content/NMFS_OpenSciDirections/add-content.html#edit-and-add-your-pages",
-    "title": "Customize",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html#modify-existing-content",
+    "href": "content/NMFS_OpenSciDirections/add-content.html#modify-existing-content",
+    "title": "Customize Content",
+    "section": "Modify Existing Content",
+    "text": "Modify Existing Content\nHere are basic instructions for modifying existing content, such as the example pages provided in the PAM Template Lab Manual: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined here.\n\nOpen your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the ‘content’ folder (lower right hand side of RStudio, Files Tab). As an example, we will change the “/content/Hardware.qmd” file. First, read the information in the page to understand the intended content. To start, we will organize different subheadings within this page.\n\nIdentify Sub-Headings. In this example, we will want to identify different types of Hardware used by our particular lab. In this example, we will want the following categories: “PAM Gliders”, “Drifting Recorders”, “Towed Arrays”, and “Handheld Hydrophones”.\n\nUsing the Source editor, use # to indicate Heading 1 style, ## for Heading 2 Style, etc.\nUsing the Visual editor, use the dropdown menu to select the Heading Style\n\nAdd Content. Most content will consist of text, with some images, hyperlinks, and occasional tables. To start, we recommend identifying the content you would like to put in there, and identify the Point of Contact (POC). As an example, we may put the following text:\nPOC: Jane Doe. General description of Hardware, links to online content (vendor specification page, relevant online content), instructions for build or maintain hardware (or links to that information), links to inventory, etc.\nOnce your outline is developed, fill in the content. IF someone else will collate the content– they can create it in a separate document to be copied/pasted here, or they can directly modify this page.\nIf you find you need separate pages for each sub-heading (instead of one long subheading), then create New Content, and link the new content to the _quarto.yml.\nWhen you are finished modifying your document and Project, push changes to Github using Github Desktop (see instructions here).",
     "crumbs": [
       "NMFS Open Science Directions",
-      "Customize"
+      "Customize Content"
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
-    "href": "content/NMFS_OpenSciDirections/add-content.html#add-your-pages-the-project",
-    "title": "Customize",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html#create-new-content",
+    "href": "content/NMFS_OpenSciDirections/add-content.html#create-new-content",
+    "title": "Customize Content",
+    "section": "Create New Content",
+    "text": "Create New Content\nAgain, assuming you have an RStudio project for your Github Repository, such as the example provided in the PAM Template Lab Manual: 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined here.\n\nOpen your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the ‘content’ folder (lower right hand side of RStudio, Files Tab). Select New Blank File, and in the drop-down, select Quarto Document. Then give your file a logical and descriptive name.\n\n![](images/newQuartoDoc.JPG){width=\"328\"}\n\nUsing the Source editor, create a title header with the text you would like as your primary Header for this page (will appear as Header 1).\n\nAdd content below the header section, using either the Source or Visual editor in RStudio.\nAdd your new content to the _quarto.yml\nWhen you are finished modifying your document and Project, push changes to Github using Github Desktop (see instructions here).",
     "crumbs": [
       "NMFS Open Science Directions",
-      "Customize"
+      "Customize Content"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html#examples",
+    "href": "content/NMFS_OpenSciDirections/add-content.html#examples",
+    "title": "Customize Content",
+    "section": "Examples",
+    "text": "Examples\nLooking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.\n\nQuarto gallery\nnmfs-openscapes\nFaye lab manual\nquarto-titlepages Note the link to edit is broken. Go to repo and look in documentation directory.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customize Content"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/add-content.html#resources",
+    "href": "content/NMFS_OpenSciDirections/add-content.html#resources",
+    "title": "Customize Content",
+    "section": "Resources",
+    "text": "Resources\n\nQuarto documentation.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Customize Content"
     ]
   },
   {
@@ -267,24 +262,14 @@
     ]
   },
   {
-    "objectID": "content/FieldMethods.html",
-    "href": "content/FieldMethods.html",
-    "title": "Field Methods",
+    "objectID": "content/Safety.html",
+    "href": "content/Safety.html",
+    "title": "Safety",
     "section": "",
-    "text": "A field methods section is highly recommended to help your team keep track of all current and past fieldwork documentation. Things to include here can include hardware specifications, checklists for fieldwork prep, deployment and recovery methods, etc.\nYou can make this a section with subpages or link directly to a separate repository that includes more detailed methods.\nADRIFT example",
+    "text": "Include the following information on this page\n\nLab safety\nField safety\nLink to your centers safety website\nIncident reporting directions\nChemical inventory (if applicable)\nLithium battery safety\n\nThis is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See SAEL lab manual lithium battery page\n\nSAEL Lab Example & Glider Lab Manual",
     "crumbs": [
-      "Field Methods"
-    ]
-  },
-  {
-    "objectID": "content/AnalysisMethods.html",
-    "href": "content/AnalysisMethods.html",
-    "title": "Analysis Methods",
-    "section": "",
-    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example",
-    "crumbs": [
-      "Software & Analysis Methods",
-      "Analysis Methods"
+      "Lab Management",
+      "Safety"
     ]
   },
   {
@@ -299,14 +284,57 @@
     ]
   },
   {
-    "objectID": "content/Safety.html",
-    "href": "content/Safety.html",
-    "title": "Safety",
+    "objectID": "content/AnalysisMethods.html",
+    "href": "content/AnalysisMethods.html",
+    "title": "Analysis Methods",
     "section": "",
-    "text": "Include the following information on this page\n\nLab safety\nField safety\nLink to your centers safety website\nIncident reporting directions\nChemical inventory (if applicable)\nLithium battery safety\n\nThis is an essential section to include if your lab uses these. Work with your lab safety manager to develop handling and storage instructions. See SAEL lab manual lithium battery page\n\nSAEL Lab Example & Glider Lab Manual",
+    "text": "An analysis methods section is required and should include the following information;\n\nData Prep and Archive\n\nData prep (decompressing, creating LTSAs, decimating, etc.)\n\nSAEL example\n\nData quality checks (QAQC scripts)\n\nSAEL example\n\nData upload steps\n\nIf you have a internal storage include directions here on where data should be stored and in what format\nYou can also include a data managment structure with standardized naming and storage/folder structures\nSAEL example\n\n\nAnalysis methods for each species, group, or sound source\n\nYou can break this down by baleen and toothed whales, soundscapes, etc.\nEach section should include detailed and reproducible methods that anybody can recreate\n\n\nYou can also link to a separate hardware repository if needed (SAEL example)\nGlider Lab Manual example",
     "crumbs": [
-      "Lab Management",
-      "Safety"
+      "Software & Analysis Methods",
+      "Analysis Methods"
+    ]
+  },
+  {
+    "objectID": "content/FieldMethods.html",
+    "href": "content/FieldMethods.html",
+    "title": "Field Methods",
+    "section": "",
+    "text": "A field methods section is highly recommended to help your team keep track of all current and past fieldwork documentation. Things to include here can include hardware specifications, checklists for fieldwork prep, deployment and recovery methods, etc.\nYou can make this a section with subpages or link directly to a separate repository that includes more detailed methods.\nADRIFT example",
+    "crumbs": [
+      "Field Methods"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/organize.html",
+    "href": "content/NMFS_OpenSciDirections/organize.html",
+    "title": "Organize with Yaml",
+    "section": "",
+    "text": "Quarto Books are combinations of multiple documents (chapters) into a single manuscript in one or more formats (HTML, PDF, Word Doc, etc). Our example below is based on the PAM_template_lab_manual:\nindex.qmd- the index.qmd file is in the root director for your project, and serves as the Home Page for a website. This file is mandatory.\n_quarto.yml- the _quarto.yml is the configuration file for your project, and is also located in the root directory. The _quarto.yml provides information regarding overall formatting and structure of pages within the larger document.\nREADME.md- Markdown file that serves as the readme for the github repository.\ncontent folder- This folder contains the individual pages for your document. Alternative names for this folder are sometimes used, but we have found that the term ‘content’ is less confusing that frequently used alternatives. Here we recommend using this for consistency.\n\n\nYAML is a human-readable data serialization language commonly used for configuration files. YAML works with multiple programming languages, and also allows users to add comments to their data (useful for documentation). YAML does require very specific indentation, mapping, etc. It is helpful to use a yaml checker to be sure your yaml does not have errors.\nQuarto books/websites contain a _quarto.yml file, which is the website’s configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you organize your site. Here is a side-by-side example:\n\nLearn more, here.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Organize with Yaml"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/organize.html#how-to-organize-your-quarto-book",
+    "href": "content/NMFS_OpenSciDirections/organize.html#how-to-organize-your-quarto-book",
+    "title": "Organize with Yaml",
+    "section": "",
+    "text": "Quarto Books are combinations of multiple documents (chapters) into a single manuscript in one or more formats (HTML, PDF, Word Doc, etc). Our example below is based on the PAM_template_lab_manual:\nindex.qmd- the index.qmd file is in the root director for your project, and serves as the Home Page for a website. This file is mandatory.\n_quarto.yml- the _quarto.yml is the configuration file for your project, and is also located in the root directory. The _quarto.yml provides information regarding overall formatting and structure of pages within the larger document.\nREADME.md- Markdown file that serves as the readme for the github repository.\ncontent folder- This folder contains the individual pages for your document. Alternative names for this folder are sometimes used, but we have found that the term ‘content’ is less confusing that frequently used alternatives. Here we recommend using this for consistency.\n\n\nYAML is a human-readable data serialization language commonly used for configuration files. YAML works with multiple programming languages, and also allows users to add comments to their data (useful for documentation). YAML does require very specific indentation, mapping, etc. It is helpful to use a yaml checker to be sure your yaml does not have errors.\nQuarto books/websites contain a _quarto.yml file, which is the website’s configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you organize your site. Here is a side-by-side example:\n\nLearn more, here.",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Organize with Yaml"
+    ]
+  },
+  {
+    "objectID": "content/NMFS_OpenSciDirections/organize.html#resources",
+    "href": "content/NMFS_OpenSciDirections/organize.html#resources",
+    "title": "Organize with Yaml",
+    "section": "Resources",
+    "text": "Resources\n\nYaml Checker\nQuarto Yaml Options (HTML)\nQuarto Book Structure",
+    "crumbs": [
+      "NMFS Open Science Directions",
+      "Organize with Yaml"
     ]
   },
   {
@@ -354,47 +382,47 @@
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/Intro.html",
-    "href": "content/NMFS_OpenSciDirections/Intro.html",
-    "title": "NOAA quarto simple with R",
+    "objectID": "content/NMFS_OpenSciDirections/rendering.html",
+    "href": "content/NMFS_OpenSciDirections/rendering.html",
+    "title": "Rendering",
     "section": "",
-    "text": "This is a template for a simple Quarto website (type: website). It looks like a html book (type: book) but unlike the book type it only has html format and you will not have the download options. type: website is a common format for documentation.\nThe repo includes a GitHub Action that will build the website automatically when you make changes to the files. The webpage will use the gh-pages branch. Serving the website files from this branch is a common way to keep all the website files from cluttering your main branch.\nWarning: Check that the settings will allow the GitHub Action to run. See the instructions below under “GitHub Set-up”. Scroll down to the troubleshooting section if the website is not built by the GitHub Action.\nNote: The GitHub Action installs R so you can render qmd files with R code. You will need to edit to install Python or Julia if your qmd uses those instead. If you have substantial computations, you don’t want to be re-running all the computations for files that didn’t change. Read about the freeze option for this situation. R users with complex reports with dependencies (so qmd B depends on qmd A or data file A) should be aware of the {targets} package which will help you keep track of files that need to be re-rendered due to changes in dependencies.\n\n\n\nClick the green “Use This Template” button to make a repository with this content. Make sure to make your repo public (since GitHub Pages doesn’t work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch). \nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and root directory. \nAllow GitHub Actions under Settings &gt; Actions &gt; General \nAllow GitHub Actions to write to the gh-pages branch. Scroll to the bottom under Settings &gt; Actions &gt; General, and make sure “Read and Write” is selected. \nEdit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the Settings &gt; Pages page to find the url to the Quarto website\n\n\n\n\n\nEdit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nAdd the files to _quarto.yml\n\n\n\n\nThe most common trouble users run into is that the book is not rendering. Check the following:\n\nThe gh-pages branch does not exist. If you forgot to check the check box to include all the branches when you created the repo from the template then it won’t exist. The Action will fail if the gh-pages branch does not already exist. You can create the branch and then push a change to main to trigger the Action to run again.\nThe GitHub Pages has not been set. You need to go to Pages under settings, and set Pages to build from the gh-pages branch.\nYou did not allow GitHub Actions to run and/or did not give read/write permission. Go to Settings &gt; Actions &gt; General, and make sure Actions are allowed (top section) and they have read/write permission (bottom section).\nYou did not push a change to the main branch. The Action is triggered by a push to main, so try making an edit to README.md and pushing that change.",
+    "text": "The repo includes a GitHub Action that will render (build) the website automatically when you make changes to the files. It will be pushed to the gh-pages branch.\nBut when you are developing your content, you will want to render it locally.",
     "crumbs": [
       "NMFS Open Science Directions",
-      "NOAA quarto simple with R"
+      "Rendering"
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/Intro.html#github-set-up",
-    "href": "content/NMFS_OpenSciDirections/Intro.html#github-set-up",
-    "title": "NOAA quarto simple with R",
-    "section": "",
-    "text": "Click the green “Use This Template” button to make a repository with this content. Make sure to make your repo public (since GitHub Pages doesn’t work on private repos unless you have a paid account) and check box to include all the branches (so that you get the gh-pages branch). \nTurn on GitHub Pages under Settings &gt; Pages . You will set pages to be made from the gh-pages branch and root directory. \nAllow GitHub Actions under Settings &gt; Actions &gt; General \nAllow GitHub Actions to write to the gh-pages branch. Scroll to the bottom under Settings &gt; Actions &gt; General, and make sure “Read and Write” is selected. \nEdit the repo description and Readme to add a link to the webpage. When you edit the description, you will see the link url in the url box or you can click on the Actions tab or the Settings &gt; Pages page to find the url to the Quarto website",
+    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "href": "content/NMFS_OpenSciDirections/rendering.html#step-1.-make-sure-you-have-a-recent-rstudio",
+    "title": "Rendering",
+    "section": "Step 1. Make sure you have a recent RStudio",
+    "text": "Step 1. Make sure you have a recent RStudio\nHave you updated RStudio since about August 2022? No? Then update to a newer version of RStudio. In general, you want to keep RStudio updated and it is required to have a recent version to use Quarto.",
     "crumbs": [
       "NMFS Open Science Directions",
-      "NOAA quarto simple with R"
+      "Rendering"
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/Intro.html#customize",
-    "href": "content/NMFS_OpenSciDirections/Intro.html#customize",
-    "title": "NOAA quarto simple with R",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nAdd the files to _quarto.yml",
+    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "href": "content/NMFS_OpenSciDirections/rendering.html#step-2.-clone-and-create-rstudio-project",
+    "title": "Rendering",
+    "section": "Step 2. Clone and create RStudio project",
+    "text": "Step 2. Clone and create RStudio project\nFirst, clone the repo onto your local computer. How? You can click File &gt; New Project and then select “Version Control”. Paste in the url of the repository. That will clone the repo on to your local computer. When you make changes, you will need to push those up.",
     "crumbs": [
       "NMFS Open Science Directions",
-      "NOAA quarto simple with R"
+      "Rendering"
     ]
   },
   {
-    "objectID": "content/NMFS_OpenSciDirections/Intro.html#troubleshooting-builds",
-    "href": "content/NMFS_OpenSciDirections/Intro.html#troubleshooting-builds",
-    "title": "NOAA quarto simple with R",
-    "section": "",
-    "text": "The most common trouble users run into is that the book is not rendering. Check the following:\n\nThe gh-pages branch does not exist. If you forgot to check the check box to include all the branches when you created the repo from the template then it won’t exist. The Action will fail if the gh-pages branch does not already exist. You can create the branch and then push a change to main to trigger the Action to run again.\nThe GitHub Pages has not been set. You need to go to Pages under settings, and set Pages to build from the gh-pages branch.\nYou did not allow GitHub Actions to run and/or did not give read/write permission. Go to Settings &gt; Actions &gt; General, and make sure Actions are allowed (top section) and they have read/write permission (bottom section).\nYou did not push a change to the main branch. The Action is triggered by a push to main, so try making an edit to README.md and pushing that change.",
+    "objectID": "content/NMFS_OpenSciDirections/rendering.html#step-3.-render-within-rstudio",
+    "href": "content/NMFS_OpenSciDirections/rendering.html#step-3.-render-within-rstudio",
+    "title": "Rendering",
+    "section": "Step 3. Render within RStudio",
+    "text": "Step 3. Render within RStudio\nRStudio will recognize that this is a Quarto project by the presence of the _quarto.yml file and will see the “Build” tab. Click the “Render website” button to render to the _site folder.\nPreviewing: You can either click index.html in the _site folder and specify “preview in browser” or set up RStudio to preview to the viewer panel. To do the latter, go to Tools &gt; Global Options &gt; R Markdown. Then select “Show output preview in: Viewer panel”.",
     "crumbs": [
       "NMFS Open Science Directions",
-      "NOAA quarto simple with R"
+      "Rendering"
     ]
   },
   {

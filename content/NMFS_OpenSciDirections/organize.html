@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Customization – NOAA quarto simple</title>
+<title>Organize with Yaml – NOAA quarto simple</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../content/NMFS_OpenSciDirections/rendering.html" rel="next">
-<link href="../../content/NMFS_OpenSciDirections/add-content.html" rel="prev">
+<link href="../../content/NMFS_OpenSciDirections/add-content.html" rel="next">
+<link href="../../content/NMFS_OpenSciDirections/Getting-Started.html" rel="prev">
 <link href="../../images/favicon.ico" rel="icon">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
@@ -83,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/Intro.html">NMFS Open Science Directions</a></li><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/customizing.html">Customization</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/Getting-Started.html">NMFS Open Science Directions</a></li><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/organize.html">Organize with Yaml</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -259,20 +259,20 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/Intro.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">NOAA quarto simple with R</span></a>
+  <a href="../../content/NMFS_OpenSciDirections/Getting-Started.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Getting Started</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../content/NMFS_OpenSciDirections/organize.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Organize with Yaml</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../content/NMFS_OpenSciDirections/add-content.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Customize</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../content/NMFS_OpenSciDirections/customizing.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Customization</span></a>
+ <span class="menu-text">Customize Content</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -311,17 +311,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#quarto-documentation" id="toc-quarto-documentation" class="nav-link active" data-scroll-target="#quarto-documentation">Quarto documentation</a></li>
-  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  <li><a href="#how-to-organize-your-quarto-book" id="toc-how-to-organize-your-quarto-book" class="nav-link active" data-scroll-target="#how-to-organize-your-quarto-book">How to Organize your Quarto Book</a>
+  <ul class="collapse">
+  <li><a href="#what-is-a-yaml" id="toc-what-is-a-yaml" class="nav-link" data-scroll-target="#what-is-a-yaml">What is a YAML?</a></li>
+  </ul></li>
+  <li><a href="#resources" id="toc-resources" class="nav-link" data-scroll-target="#resources">Resources</a></li>
   </ul>
-<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/edit/main/content/NMFS_OpenSciDirections/customizing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/blob/main/content/NMFS_OpenSciDirections/customizing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
+<div class="toc-actions"><ul><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/edit/main/content/NMFS_OpenSciDirections/organize.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/blob/main/content/NMFS_OpenSciDirections/organize.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/Intro.html">NMFS Open Science Directions</a></li><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/customizing.html">Customization</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/Getting-Started.html">NMFS Open Science Directions</a></li><li class="breadcrumb-item"><a href="../../content/NMFS_OpenSciDirections/organize.html">Organize with Yaml</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Customization</h1>
+<h1 class="title">Organize with Yaml</h1>
 </div>
 
 
@@ -338,18 +341,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="quarto-documentation" class="level2">
-<h2 class="anchored" data-anchor-id="quarto-documentation">Quarto documentation</h2>
-<p>Quarto allow many bells and whistles to make nice output. Read the documentation here <a href="https://quarto.org/docs/guide/">Quarto documentation</a>.</p>
+<section id="how-to-organize-your-quarto-book" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-organize-your-quarto-book">How to Organize your Quarto Book</h2>
+<p>Quarto Books are combinations of multiple documents (chapters) into a single manuscript in one or more formats (HTML, PDF, Word Doc, etc). Our example below is based on the <a href="https://nmfs-ost.github.io/PAM_template_lab_manual/">PAM_template_lab_manual</a>:</p>
+<p><strong>index.qmd</strong>- the index.qmd file is in the root director for your project, and serves as the Home Page for a website. This file is mandatory.</p>
+<p><strong>_quarto.yml</strong>- the _quarto.yml is the configuration file for your project, and is also located in the root directory. The _quarto.yml provides information regarding overall formatting and structure of pages within the larger document.</p>
+<p><strong>README.md</strong>- Markdown file that serves as the readme for the github repository.</p>
+<p><strong>content folder</strong>- This folder contains the individual pages for your document. Alternative names for this folder are sometimes used, but we have found that the term ‘content’ is less confusing that frequently used alternatives. Here we recommend using this for consistency.</p>
+<section id="what-is-a-yaml" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-a-yaml">What is a YAML?</h3>
+<p>YAML is a human-readable data serialization language commonly used for configuration files. YAML works with multiple programming languages, and also allows users to add comments to their data (useful for documentation). YAML does require very specific indentation, mapping, etc. It is helpful to use a <a href="https://yamlchecker.com/">yaml checker</a> to be sure your yaml does not have errors.</p>
+<p>Quarto books/websites contain a _quarto.yml file, which is the website’s configuration file. It is essentially metadata for the website that includes the order that the pages/chapters will be in. This is where you organize your site. Here is a side-by-side example:</p>
+<p><img src="images/quarto-yml-site-side-by-side3.png" class="img-fluid"></p>
+<p>Learn more, <a href="https://openscapes.github.io/quarto-website-tutorial/explore.html">here</a>.</p>
 </section>
-<section id="examples" class="level2">
-<h2 class="anchored" data-anchor-id="examples">Examples</h2>
-<p>Looking at other people’s Quarto code is a great way to figure out how to do stuff. Most will have a link to a GitHub repo where you can see the raw code. Look for a link to edit page or see source code. This will usually be on the right. Or look for the GitHub icon somewhere.</p>
+</section>
+<section id="resources" class="level2">
+<h2 class="anchored" data-anchor-id="resources">Resources</h2>
 <ul>
-<li><a href="https://quarto.org/docs/gallery/">Quarto gallery</a></li>
-<li><a href="https://nmfs-openscapes.github.io/">nmfs-openscapes</a></li>
-<li><a href="https://thefaylab.github.io/lab-manual/">Faye lab manual</a></li>
-<li><a href="https://nmfs-opensci.github.io/quarto_titlepages/">quarto-titlepages</a> Note the link to edit is broken. Go to repo and look in <code>documentation</code> directory.</li>
+<li><p><a href="https://yamlchecker.com/">Yaml Checker</a></p></li>
+<li><p><a href="https://quarto.org/docs/reference/formats/html.html">Quarto Yaml Options (HTML)</a></p></li>
+<li><p><a href="https://quarto.org/docs/books/book-structure.html">Quarto Book Structure</a></p></li>
 </ul>
 
 
@@ -922,13 +934,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../content/NMFS_OpenSciDirections/add-content.html" class="pagination-link" aria-label="Customize">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Customize</span>
+      <a href="../../content/NMFS_OpenSciDirections/Getting-Started.html" class="pagination-link" aria-label="Getting Started">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Getting Started</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../content/NMFS_OpenSciDirections/rendering.html" class="pagination-link" aria-label="Rendering">
-        <span class="nav-page-text">Rendering</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../content/NMFS_OpenSciDirections/add-content.html" class="pagination-link" aria-label="Customize Content">
+        <span class="nav-page-text">Customize Content</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -940,7 +952,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/edit/main/content/NMFS_OpenSciDirections/customizing.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/blob/main/content/NMFS_OpenSciDirections/customizing.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/edit/main/content/NMFS_OpenSciDirections/organize.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/blob/main/content/NMFS_OpenSciDirections/organize.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/nmfs-ost/PAM_template_lab_manual/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>
