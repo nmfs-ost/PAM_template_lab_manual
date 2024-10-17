@@ -65,9 +65,9 @@ website:
           - content/Resources.qmd
       - section: "NMFS Open Science Directions"
         contents:
-          - content/NMFS_OpenSciDirections/Intro.qmd
+          - content/NMFS_OpenSciDirections/Getting-Started.qmd
+          - content/NMFS_OpenSciDirections/organize.qmd
           - content/NMFS_OpenSciDirections/add-content.qmd
-          - content/NMFS_OpenSciDirections/customizing.qmd
           - content/NMFS_OpenSciDirections/rendering.qmd
           - content/NMFS_OpenSciDirections/rmarkdown.Rmd
           - content/NMFS_OpenSciDirections/code.qmd
