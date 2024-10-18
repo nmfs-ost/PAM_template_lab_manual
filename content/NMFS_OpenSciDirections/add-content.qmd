@@ -10,8 +10,6 @@ Here are basic instructions for modifying existing content, such as the example 
 
 1)  Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). As an example, we will change the "/content/Hardware.qmd" file. First, read the information in the page to understand the intended content. To start, we will organize different subheadings within this page.
 
-    ![](images/findHardwareFile-01.JPG){width="294"}
-
 2)  Identify Sub-Headings. In this example, we will want to identify different types of Hardware used by our particular lab. In this example, we will want the following categories: "PAM Gliders", "Drifting Recorders", "Towed Arrays", and "Handheld Hydrophones".
 
     -   Using the **Source** editor, use \# to indicate Heading 1 style, \## for Heading 2 Style, etc.
@@ -32,9 +30,9 @@ Here are basic instructions for modifying existing content, such as the example 
 
 Again, assuming you have an RStudio project for your Github Repository, such as the example provided in the [PAM Template Lab Manual](https://github.com/nmfs-ost/PAM_template_lab_manual): 1) Ensure that you have cloned the Github Repository using Github Desktop, and that you have created an RStudio project, following directions outlined [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html).
 
-1.   Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). Select **New Blank File**, and in the drop-down, select **Quarto Document**. Then give your file a logical and descriptive name.
+1.  Open your RStudio project (here we will assume it is a clone of the PAM Template Lab Manual), and navigate to the 'content' folder (lower right hand side of RStudio, Files Tab). Select **New Blank File**, and in the drop-down, select **Quarto Document**. Then give your file a logical and descriptive name.
 
-    ![](images/newQuartoDoc.JPG){width="328"}
+    ![](images/newQuartoDoc.JPG){width="300"}
 
 2.  Using the **Source** editor, create a title header with the text you would like as your primary Header for this page (will appear as Header 1).
 
