@@ -1,16 +1,6 @@
-# Hardware
-
-## Drifting Recorders
-
-POC: Cory Hom-Weaver, link to Adrift Repo
-
-## Towed Arrays
-
-POC: Shannon Rankin, Good Luck
-
-## Handheld Recorders
-
-POC: Kourtney Burger, link to Repo
+---
+title: Hardware
+---
 
 A hardware section is required and should include the following information;
 
