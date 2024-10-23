@@ -14,11 +14,13 @@ In order to keep consistency between science centers, the following sections/pag
 
 -   Home Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.
 -   [Lab Management](https://nmfs-ost.github.io/PAM_template_lab_manual/content/LabManagement.html)
+-   [Field Methods](https://nmfs-ost.github.io/PAM_template_lab_manual/content/FieldMethods.html)
 -   [Data Management](https://nmfs-ost.github.io/PAM_template_lab_manual/content/DataManagement.html)
 -   [Hardware](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Hardware.html)
 -   [Software](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Software.html)
 -   [Analysis](https://nmfs-ost.github.io/PAM_template_lab_manual/content/AnalysisMethods.html)
 -   [Reporting](https://nmfs-ost.github.io/PAM_template_lab_manual/content/Reporting.html)
+
 
 ## Optional Pages
 
