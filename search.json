@@ -24,7 +24,7 @@
     "href": "index.html#required-pages",
     "title": "Home",
     "section": "Required Pages",
-    "text": "Required Pages\nIn order to keep consistency between science centers, the following sections/pages will be required in all lab manuals. These will be directly linked to the National PAM Repository. The links will direct you to the associated template page with more directions on what to include.\n\nHome Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.\nLab Management\nData Management\nHardware\nSoftware\nAnalysis\nReporting",
+    "text": "Required Pages\nIn order to keep consistency between science centers, the following sections/pages will be required in all lab manuals. These will be directly linked to the National PAM Repository. The links will direct you to the associated template page with more directions on what to include.\n\nHome Page (this page): Edit this page to include an introduction to your lab, projects you are working on, etc.\nLab Management\nField Methods\nData Management\nHardware\nSoftware\nAnalysis\nReporting",
     "crumbs": [
       "Home"
     ]
@@ -107,7 +107,40 @@
     "href": "content/Hardware.html",
     "title": "Hardware",
     "section": "",
-    "text": "A hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
+    "text": "POC: Cory Hom-Weaver, link to Adrift Repo\n\n\n\nPOC: Shannon Rankin, Good Luck\n\n\n\nPOC: Kourtney Burger, link to Repo\nA hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#drifting-recorders",
+    "href": "content/Hardware.html#drifting-recorders",
+    "title": "Hardware",
+    "section": "",
+    "text": "POC: Cory Hom-Weaver, link to Adrift Repo",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#towed-arrays",
+    "href": "content/Hardware.html#towed-arrays",
+    "title": "Hardware",
+    "section": "",
+    "text": "POC: Shannon Rankin, Good Luck",
+    "crumbs": [
+      "Lab Management",
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware.html#handheld-recorders",
+    "href": "content/Hardware.html#handheld-recorders",
+    "title": "Hardware",
+    "section": "",
+    "text": "POC: Kourtney Burger, link to Repo\nA hardware section is required and should include the following information;\n\nInformation on your recorders\nArray configurations and diagrams\nPlatform information (towed, moored, drifting, etc.)\nOther sensors included (GPS devices, depth senors, etc.)\n\nThis will be variable for each center and may change from project to project. You should list all hardware, present and past.\nYou can also link to a separate hardware repository if needed (SAEL example)\nThis can be a section with subpages or a qmd",
     "crumbs": [
       "Lab Management",
       "Hardware"
