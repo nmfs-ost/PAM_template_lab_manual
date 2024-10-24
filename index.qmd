@@ -88,7 +88,7 @@ This template will create a Quarto website that each lab can copy and edit with 
 
         ![](content/images/website.png)
 
-8.  Your lab manual is now created! Go [here](https://sael-swfsc.github.io/OpenScience/content/GithubDesktop.html) for more directions on how to start editing you manual using GitHub Desktop and R Studio (start at step 4)
+8.  Your lab manual is now created! Go [here](https://sael-swfsc.github.io/OpenScience/content/labManual.html) for more information on building your lab manual.
 
 ## Example Manuals
 

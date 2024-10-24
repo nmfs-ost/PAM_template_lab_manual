@@ -63,15 +63,15 @@ website:
           - content/OpenScience.qmd
           - content/PublicationsPresentations.qmd
           - content/Resources.qmd
-      - section: "NMFS Open Science Directions"
-        contents:
-          - content/NMFS_OpenSciDirections/Getting-Started.qmd
-          - content/NMFS_OpenSciDirections/organize.qmd
-          - content/NMFS_OpenSciDirections/add-content.qmd
-          - content/NMFS_OpenSciDirections/rendering.qmd
-          - content/NMFS_OpenSciDirections/rmarkdown.Rmd
-          - content/NMFS_OpenSciDirections/code.qmd
-          - content/NMFS_OpenSciDirections/acknowledgements.qmd 
+      # - section: "NMFS Open Science Directions"  #Removed but did not yet delete
+      #   contents:
+      #     - content/NMFS_OpenSciDirections/Getting-Started.qmd
+      #     - content/NMFS_OpenSciDirections/organize.qmd
+      #     - content/NMFS_OpenSciDirections/add-content.qmd
+      #     - content/NMFS_OpenSciDirections/rendering.qmd
+      #     - content/NMFS_OpenSciDirections/rmarkdown.Rmd
+      #     - content/NMFS_OpenSciDirections/code.qmd
+      #     - content/NMFS_OpenSciDirections/acknowledgements.qmd 
         
 format:
   html:
